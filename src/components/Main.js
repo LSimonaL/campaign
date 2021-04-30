@@ -1,9 +1,23 @@
 import React from 'react'
-// import "../style/styles.css";
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import "./styles.css";
+import Slider from "./Slider";
+// import Slider from "./Slider-test";
 
 function Main() {
     return (
-        <p>Main</p>
+        <>
+        <Container fluid>
+            <Row>
+                <Col>
+                    <h1 className="mt-5 txt-color-white">Newest <br /> campaigns</h1>
+                </Col>
+            </Row>
+        <Slider/>
+        </Container>
+      </>
     )
 }
 

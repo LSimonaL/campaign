@@ -1,5 +1,64 @@
+#root { height: 100% }
+html,
+body {
+  background-color: #242423!important;
+  height: 80%;
+  position: relative;
+
+}
+.txt-color-white {
+  color: #f8f9fa;
+}
+
 .nav-custom-button {
-    /* color: white; */
     border-radius: 50px!important;
     padding: auto 5% auto 5%!important;
+    color: #f8f9fa !important;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: green; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .swiper-slide img {
+        width: 100%;
+    }
 }

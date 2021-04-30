@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import "./styles.css";
-import "./colors.css";
 import Button from 'react-bootstrap/Button'
 
 function Navigation() {
