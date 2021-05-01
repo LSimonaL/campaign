@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/campaign/static/css/main.291150b6.chunk.css",
-    "main.js": "/campaign/static/js/main.3a382998.chunk.js",
-    "main.js.map": "/campaign/static/js/main.3a382998.chunk.js.map",
+    "main.js": "/campaign/static/js/main.35043e94.chunk.js",
+    "main.js.map": "/campaign/static/js/main.35043e94.chunk.js.map",
     "runtime-main.js": "/campaign/static/js/runtime-main.e7e169a9.js",
     "runtime-main.js.map": "/campaign/static/js/runtime-main.e7e169a9.js.map",
     "static/css/2.c18c0ecb.chunk.css": "/campaign/static/css/2.c18c0ecb.chunk.css",
@@ -19,13 +19,14 @@
     "static/media/item-3.8c45f0b3.jpg": "/campaign/static/media/item-3.8c45f0b3.jpg",
     "static/media/item-4.12c1f4fb.jpg": "/campaign/static/media/item-4.12c1f4fb.jpg",
     "static/media/item-5.2012a5ad.jpg": "/campaign/static/media/item-5.2012a5ad.jpg",
-    "static/media/item-6.1735fd28.jpg": "/campaign/static/media/item-6.1735fd28.jpg"
+    "static/media/item-6.1735fd28.jpg": "/campaign/static/media/item-6.1735fd28.jpg",
+    "static/media/logo.514b7a91.png": "/campaign/static/media/logo.514b7a91.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e7e169a9.js",
     "static/css/2.c18c0ecb.chunk.css",
     "static/js/2.8f1d362c.chunk.js",
     "static/css/main.291150b6.chunk.css",
-    "static/js/main.3a382998.chunk.js"
+    "static/js/main.35043e94.chunk.js"
   ]
 }
