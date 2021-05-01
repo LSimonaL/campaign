@@ -12,7 +12,7 @@ function Main() {
         <Container fluid>
             <Row>
                 <Col>
-                    <h1 className="mt-5 txt-color-white">Newest <br /> campaigns</h1>
+                    <h1 className="mt-auto txt-color-white">Newest <br /> campaigns</h1>
                 </Col>
             </Row>
         <Slider/>
