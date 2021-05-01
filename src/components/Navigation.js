@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button'
 
 function Navigation() {
     return (
-      <Navbar className='bg-drk' variant="dark" collapseOnSelect expand="lg" >
+      <Navbar className='customNavigation' variant="dark" collapseOnSelect expand="lg" >
         <Navbar.Brand href="#home">
           <img
             src="/logo.png"

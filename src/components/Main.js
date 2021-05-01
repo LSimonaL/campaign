@@ -9,10 +9,10 @@ import Slider from "./Slider";
 function Main() {
     return (
         <>
-        <Container fluid>
-            <Row>
+        <Container fluid >
+            <Row className="hideMobile">
                 <Col>
-                    <h1 className="mt-auto txt-color-white">Newest <br /> campaigns</h1>
+                    <h1 className="mt-auto hideMobile txt-color-white">Newest <br /> campaigns</h1>
                 </Col>
             </Row>
         <Slider/>
