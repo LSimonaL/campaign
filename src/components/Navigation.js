@@ -2,14 +2,15 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import "./styles.css";
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import logo from '../images/logo.png';
 
 function Navigation() {
     return (
       <Navbar className='customNavigation' variant="dark" collapseOnSelect expand="lg" >
         <Navbar.Brand href="#home">
           <img
-            src="/logo.png"
+            src={logo}
             width="45"
             height="45"
             className="d-inline-block align-top"
