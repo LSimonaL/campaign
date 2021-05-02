@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {campaignData} from './CampaignData'
 import "./styles.css";
-import {Container, Row, Col, Button} from 'react-bootstrap'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide  } from "swiper/react";
@@ -19,6 +18,8 @@ SwiperCore.use([Navigation]);
 
 const Slider = () => {
   const [modalShow, setModalShow] = useState(false);
+
+  
 
   return (
     <>
@@ -54,23 +55,23 @@ const Slider = () => {
       {campaignData.map((campaign, index) => {
           return (
             <>
-              <SwiperSlide key={index} >
+              <SwiperSlide key={index}>
                 <div onClick={() => setModalShow(true)}>
-                  <img className="width-100" src={campaign.image} />
+                  <img className="width-100" src={campaign.image} alt=""/>
                   <div className="campaign-title">
                     <h4>{campaign.title}</h4>
                     <p>{campaign.text}</p>
                   </div>
                 </div>
-                <ModalLayout show={modalShow} onHide={() => setModalShow(false)} />
+                <ModalLayout campaign={campaign} show={modalShow} onHide={() => setModalShow(false)} />
               </SwiperSlide>
             </>
           )
-        }
-      )
-      }
+        })}
       </Swiper>
+
     </>
   );
+
 }
 export default Slider;

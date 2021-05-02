@@ -187,7 +187,8 @@ body {
 
 .click-state{
   background-color: gray !important;
-  /* cursor: none; */
+  cursor:unset  !important;
+  border: hidden !important;
 }
 
 @media only screen and (max-width: 600px) {
